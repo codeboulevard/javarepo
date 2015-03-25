@@ -1,0 +1,11 @@
+<hibernate-reverse-engineering>
+	<schema-selection match-catalog="" match-schema="dbo"/>
+
+	<type-mapping>
+		<sql-type jdbc-type="BIT" hibernate-type="boolean"/>
+		<sql-type jdbc-type="VARCHAR" hibernate-type="string"/>
+		<sql-type jdbc-type="FLOAT" hibernate-type="float"/>
+	</type-mapping>
+
+	<table-filter match-name="Holder"/>
+</hibernate-reverse-engineering>
